@@ -13,4 +13,7 @@ Assurez-vous d'avoir Python installé.
    ```bash
    git clone https://github.com/nehoraipenia-commits/assistant-IA.git
    cd assistant-IA
+   ```bash
+   pip install -r requirement.txt
+   ```bash
    python main.py
