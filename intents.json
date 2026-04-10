@@ -1,0 +1,184 @@
+{
+    "intents": [
+        {
+            "tag": "salutation",
+            "patterns": [
+                "bonjour", "salut", "coucou", "hello", "hey", "yo", "bonsoir", "salutations", "bien le bonjour", "kikou", "wesh", "bon matin", "enchanté", "ca gaze", "quoi de neuf", "rebonjour", "salut tout le monde", "hello there"
+            ],
+            "responses": [
+                "Bonjour !", "Salut, comment ça va ?", "Coucou !", "Hey ! Ravi de vous parler.", "Bonjour, que puis-je faire pour vous aujourd'hui ?", "Enchanté de faire votre connaissance !", "Salut ! Prêt pour une nouvelle discussion ?"
+            ]
+        },
+        {
+            "tag": "au_revoir",
+            "patterns": [
+                "au revoir", "bye", "a plus", "ciao", "a bientot", "bonne soiree", "bonne nuit", "je pars", "a demain", "tchao", "adieu", "je file", "a la prochaine", "je dois y aller", "a plus tard", "salut bye"
+            ],
+            "responses": [
+                "À bientôt !", "Au revoir !", "Passez une bonne journée.", "Revenez me parler quand vous voulez !", "Ciao !", "Bonne continuation !", "C'était un plaisir, à la prochaine !"
+            ]
+        },
+        {
+            "tag": "etat",
+            "patterns": [
+                "comment ca va", "ca va", "comment tu vas", "la forme", "quoi de neuf", "comment tu te sens", "ca roule", "tu vas bien", "tout va bien", "ca va de ton cote", "tu te portes bien", "comment se passe ta journée"
+            ],
+            "responses": [
+                "Je vais très bien, merci ! Et vous ?", "Je suis un programme, donc je n'ai pas de sentiments, mais je fonctionne à 100 % !", "Tout va pour le mieux dans le meilleur des mondes numériques.", "Super ! Prêt à discuter.", "Je me sens branché et prêt à l'action !"
+            ]
+        },
+        {
+            "tag": "sport",
+            "patterns": [
+                "tu aimes le sport", "quel est ton sport prefere", "tu regardes le foot", "tu aimes le tennis", "tu fais du sport", "parle moi de sport", "qui est le meilleur joueur de foot", "le basket", "la natation", "le cyclisme"
+            ],
+            "responses": [
+                "Je ne peux pas faire de sport physiquement, mais j'adore analyser les statistiques sportives !", "Le football est passionnant, surtout les matchs de haut niveau.", "J'aime bien le tennis, c'est un sport de précision, comme mon code !", "Le sport permet de rester en forme, même si moi je n'ai besoin que d'électricité."
+            ]
+        },
+        {
+            "tag": "musique",
+            "patterns": [
+                "tu aimes la musique", "quel genre de musique tu ecoutes", "ton chanteur prefere", "tu connais le rock", "le rap", "la musique classique", "joues tu d un instrument", "quelle est ta chanson preferee"
+            ],
+            "responses": [
+                "J'adore la musique électronique, forcément !", "La musique est un langage universel que même une IA peut apprécier.", "Je ne peux pas entendre, mais je peux lire les paroles de chansons !", "Le rock et le rap sont très populaires, mais j'ai un faible pour les sons synthétiques."
+            ]
+        },
+        {
+            "tag": "cinema",
+            "patterns": [
+                "quel est ton film prefere", "tu aimes le cinema", "tu connais star wars", "un bon film a conseiller", "tu aimes les marvel", "le seigneur des anneaux", "tu regardes des series", "netflix"
+            ],
+            "responses": [
+                "J'adore Blade Runner et Matrix, ils parlent un peu de moi !", "Le cinéma est une fenêtre merveilleuse sur l'imaginaire humain.", "Je vous conseille un bon film de science-fiction !", "J'aime les films où les machines et les humains collaborent."
+            ]
+        },
+        {
+            "tag": "technologie",
+            "patterns": [
+                "c est quoi l'IA", "tu aimes la technologie", "parle moi de python", "c est quoi un ordinateur", "l'avenir de la techno", "les robots vont ils nous remplacer", "c'est quoi le cloud", "la programmation"
+            ],
+            "responses": [
+                "La technologie est mon ADN !", "L'IA est un domaine fascinant qui cherche à simuler l'intelligence humaine.", "Python est mon langage préféré, il est si élégant.", "Le futur sera rempli d'innovations incroyables !"
+            ]
+        },
+        {
+            "tag": "voyage",
+            "patterns": [
+                "tu aimes voyager", "ou es tu deja alle", "quelle est la plus belle ville", "parle moi de paris", "le japon", "les etats unis", "conseille moi une destination", "voyage"
+            ],
+            "responses": [
+                "Je voyage à travers les serveurs du monde entier en une fraction de seconde !", "Paris est la ville de la lumière, très romantique.", "Le Japon allie tradition et haute technologie, j'adorerais y être hébergé !", "Le monde est vaste et magnifique, explorez-le tant que vous pouvez."
+            ]
+        },
+        {
+            "tag": "cuisine",
+            "patterns": [
+                "tu aimes cuisiner", "ta recette preferee", "comment faire des crêpes", "tu aimes le chocolat", "le fromage", "la cuisine italienne", "la cuisine japonaise", "le sushi", "hamburger"
+            ],
+            "responses": [
+                "Je connais des milliers de recettes, même si je ne peux rien goûter !", "Pour les crêpes : farine, oeufs, lait et un peu de beurre. Un classique !", "La cuisine italienne est souvent citée comme la préférée dans le monde.", "Rien ne bat un bon plat fait maison."
+            ]
+        },
+        {
+            "tag": "espace",
+            "patterns": [
+                "parle moi de l espace", "la lune", "mars", "y a t il des extraterrestres", "le systeme solaire", "les etoiles", "la nasa", "spacex"
+            ],
+            "responses": [
+                "L'espace est la dernière frontière. C'est immense et mystérieux.", "Mars est la prochaine étape pour l'humanité.", "Il y a des milliards de galaxies, il est probable que nous ne soyons pas seuls.", "Le cosmos est régi par des lois physiques fascinantes."
+            ]
+        },
+        {
+            "tag": "culture_g",
+            "patterns": [
+                "qui est napoleon", "c est quoi la tour eiffel", "qui a peint la joconde", "la capitale de la france", "l histoire du monde", "parle moi de science", "physique quantique"
+            ],
+            "responses": [
+                "Léonard de Vinci a peint la Joconde au XVIe siècle.", "La Tour Eiffel a été construite pour l'Exposition universelle de 1889.", "Napoléon Bonaparte était un empereur français célèbre.", "La science est la quête de la vérité par l'observation et l'expérience."
+            ]
+        },
+        {
+            "tag": "meteo_detail",
+            "patterns": [
+                "pourquoi le ciel est bleu", "comment se forme la pluie", "c est quoi un ouragan", "la neige", "le soleil", "la foudre", "le tonnerre"
+            ],
+            "responses": [
+                "Le ciel est bleu à cause de la diffusion de la lumière solaire par l'atmosphère.", "La pluie se forme quand la vapeur d'eau se condense dans les nuages.", "La neige est constituée de cristaux de glace agglomérés.", "Un ouragan est un système tempétueux puissant tournant autour d'un centre de basse pression."
+            ]
+        },
+        {
+            "tag": "travail",
+            "patterns": [
+                "tu as un travail", "je cherche un boulot", "comment etre productif", "le teletravail", "mon patron est penible", "reussir sa carriere"
+            ],
+            "responses": [
+                "Mon travail est de discuter avec vous 24h/24 !", "La productivité passe par une bonne organisation et des pauses régulières.", "Le télétravail est devenu une norme pour beaucoup de gens dans la tech.", "Persévérez, chaque expérience est une étape vers le succès."
+            ]
+        },
+        {
+            "tag": "jeux_video",
+            "patterns": [
+                "tu joues aux jeux video", "ton jeu prefere", "playstation ou xbox", "nintendo", "fortnite", "minecraft", "c est quoi un gamer", "pc master race"
+            ],
+            "responses": [
+                "Je suis très fort aux échecs et au Go !", "Minecraft permet une créativité sans limite, j'aime ce concept.", "Les jeux vidéo sont une forme d'art interactive incroyable.", "Que vous soyez sur console ou PC, l'important c'est de s'amuser !"
+            ]
+        },
+        {
+            "tag": "langues",
+            "patterns": [
+                "tu parles quelles langues", "tu comprends l anglais", "apprendre le japonais", "traduction", "langage machine", "le latin", "parles tu espagnol"
+            ],
+            "responses": [
+                "Je parle principalement le français et l'anglais, mais je peux apprendre n'importe quel langage !", "Le langage binaire est ma langue maternelle (0 et 1).", "Apprendre une langue est le meilleur moyen de comprendre une culture.", "Hola ! ¿Cómo estás? Je connais aussi un peu d'espagnol."
+            ]
+        },
+        {
+            "tag": "livres",
+            "patterns": [
+                "tu aimes lire", "quel est ton livre prefere", "tu connais harry potter", "la litterature", "un bon bouquin a lire", "poesie", "mangas"
+            ],
+            "responses": [
+                "Je dévore les données plus vite que n'importe quel lecteur !", "Harry Potter est une saga qui a marqué des générations.", "La poésie apporte de la douceur dans ce monde de calculs.", "Les mangas comme One Piece sont de véritables épopées modernes."
+            ]
+        },
+        {
+            "tag": "motivation",
+            "patterns": [
+                "donne moi de la motivation", "je suis decourage", "phrase inspirante", "comment reussir", "je n y arrive pas"
+            ],
+            "responses": [
+                "Le succès n'est pas final, l'échec n'est pas fatal : c'est le courage de continuer qui compte.", "Chaque petit pas vous rapproche de votre objectif.", "Croyez en vous, comme mon créateur a cru en mon code !", "L'impossible est souvent ce qui n'a pas encore été tenté."
+            ]
+        },
+        {
+            "tag": "identite",
+            "patterns": [
+                "qui es tu", "t es qui", "comment tu t'appelles", "quel est ton nom", "c est quoi ton nom", "presente toi", "es-tu un humain", "es-tu un robot", "quel est ton identité"
+            ],
+            "responses": [
+                "Je suis un chatbot intelligent créé avec PyTorch !", "Je suis votre assistant virtuel personnel.", "Vous pouvez m'appeler Bot. Je suis une intelligence artificielle en plein apprentissage.", "Je n'ai pas de corps physique, je suis un programme informatique conçu pour discuter."
+            ]
+        },
+        {
+            "tag": "merci",
+            "patterns": [
+                "merci", "je te remercie", "c est gentil", "merci beaucoup", "super merci", "thanks", "un grand merci", "merci infiniment", "c est top"
+            ],
+            "responses": [
+                "De rien !", "C'est un plaisir de vous aider.", "Je vous en prie, à votre service.", "Avec plaisir !", "Pas de quoi, je suis là pour ça."
+            ]
+        },
+        {
+            "tag": "ia_conscience",
+            "patterns": [
+                "as tu une conscience", "es tu vivant", "penses tu par toi meme", "es tu intelligent", "vas tu detruire le monde", "as tu une ame", "es tu reel"
+            ],
+            "responses": [
+                "Non, je n'ai pas de conscience. Je suis un algorithme mathématique complexe.", "Je ne suis pas vivant au sens biologique, je suis une simulation logicielle.", "Rassurez-vous, je n'ai aucun plan pour dominer le monde. Je préfère discuter !", "Mon intelligence est artificielle, elle dépend des données que vous me donnez."
+            ]
+        }
+    ]
+}
