@@ -12,3 +12,5 @@ Assurez-vous d'avoir Python installé.
 1. **Cloner le projet**
    ```bash
    git clone https://github.com/nehoraipenia-commits/assistant-IA.git
+   cd assistant-IA
+   python main.py
