@@ -1,6 +1,6 @@
 # assistant-IA
 
-# 🤖 Mon Assistant IA
+# 🤖 Assistant IA
 
 Voici les étapes pour installer et lancer l'assistant sur votre machine.
 
